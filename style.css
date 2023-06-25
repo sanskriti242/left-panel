@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.left-panel {
+  width: 200px;
+  float: left;
+}
+.left-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #ccc;
+}
+
+.content {
+  width: 760px;
+  float: right;
+}
+
+.left-panel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0vw;
+}
+
+.left-panel li {
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  padding-left: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #f9959b;
+}
+
+.card2 img {
+  width: 320px;
+  border-radius: 140px;
+}
+.contact2 {
+  font-family: "Libre Baskerville", serif;
+}
+.contact2 h2 {
+  text-align: center;
+}
+.contact2 span {
+  color: #fcbabe;
+}
+.contact2 .part2 .card2 img {
+  width: 80px;
+}
+section.contact2 .part2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.contact2 .part2 .card2 {
+  margin-top: 5rem;
+  margin-left: 2vw;
+  /* margin-right: 20vw; */
+  text-align: center;
+}
+.contact2 .part2 .card2 p {
+  color: #facfd2;
+}
+.contact2 .part2 .card2 img {
+  margin-bottom: 1.5rem;
+}
+.contact2 .part2 .card2 h3 {
+  font-weight: 2rem;
+  margin-bottom: 0.6rem;
+}
+.contact2 .input {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  margin-left: 12rem;
+  margin-right: 10rem;
+  margin-bottom: 2rem;
+}
+.contact2 .input2 {
+  text-align: center;
+}
+.contact2 .input input {
+  padding: 0.7rem;
+  border: 3.5px solid #facfd2;
+}
+.contact2 .input2 textarea {
+  padding: 0.5rem;
+  border: 3.5px solid #facfd2;
+}
+.contact2 .B {
+  text-align: center;
+  padding: 3rem;
+  padding-bottom: 5rem;
+}
+.part2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 1362px) {
+  .left-panel {
+    display: none;
+  }
+}
+.contact2 .part2 .card2 img {
+  margin-bottom: 1rem;
+  float: right;
+}
